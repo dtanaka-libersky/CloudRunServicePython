@@ -32,7 +32,7 @@ def hello() -> str:
     logger.info("Child logger with trace Id.")
 
     #return "Hello, World!"
-    return "Step31 CloudRun Service"
+    return "Step31 CloudRun Service　!!"
 
 
 def shutdown_handler(signal_int: int, frame: FrameType) -> None:
