@@ -43,7 +43,7 @@ def hello2() -> str:
     logger.info("Child logger with trace Id.")
 
     #return "Hello, World!"
-    return "Step31 CloudRun Service!"
+    return "No.24 Test Deploy"
 
 def shutdown_handler(signal_int: int, frame: FrameType) -> None:
     logger.info(f"Caught Signal {signal.strsignal(signal_int)}")
