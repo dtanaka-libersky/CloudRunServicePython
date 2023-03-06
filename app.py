@@ -34,7 +34,7 @@ def hello() -> str:
     #return "Hello, World!"
     return "Step31 CloudRun Service!"
 
-@app.route("/test/")
+@app.route("/test")
 def hello2() -> str:
     # Use basic logging with custom fields
     logger.info(logField="custom-entry", arbitraryField="custom-entry")
